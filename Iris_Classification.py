@@ -5,6 +5,7 @@ from streamlit_lottie import st_lottie
 
 with st.container() :
     st.title('Iris Classification')
+    st.caption('by [Narendra Nath Paul](https://github.com/Narendra404)')
     st.header('A simple Machine Learning Project with the use of the famous Iris flower dataset.')
     st.write('This project involves the result of four different ML classification algorithms. The test size for each algorithm can be changed and the accuracy and the confusion matrix is displayed.')
 
